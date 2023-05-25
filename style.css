@@ -1,0 +1,41 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.choices {
+  margin-bottom: 10px;
+}
+
+.choices label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.choices input[type="radio"] {
+  margin-right: 5px;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+#score {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
